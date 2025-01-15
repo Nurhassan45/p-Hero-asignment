@@ -174,3 +174,50 @@ nav h3{
     height: 60px;
    width: 170px;
 }
+
+/* Donate-Section */
+.Donate-section{
+  
+    margin: 80px auto;
+    flex-direction: column;
+    gap: 20px;
+    width:60%;
+    padding: 0 2.5vw;
+    text-align: center;
+    justify-content: center;
+}
+.amont-flex{
+    justify-content: center;
+    gap: 50px;
+}
+.amont-items{
+    background-color: #eaf5f0;
+    padding: 20px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: larger;
+    transition: 0.3s;
+}
+.amont-items:hover{
+    background-color: #4ace93c4;
+}
+.Donate-section input{
+    text-align: center;
+    height: 60px;
+    width: 800px;
+}
+ /* .Subscribe-Section */
+ .subscribe-section{
+    padding: 50px 2.5vw;
+    width: 95%;
+    border-radius: 20px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 30px;
+    background-color:#C6E4D6;
+    text-align: center;
+ }
+ .subscribe-section-main{
+    margin: 0 2.5 vw;
+
+ }
