@@ -139,3 +139,38 @@ nav h3{
     font-weight: bold;
     padding: 20px 0;
 }
+
+/* recent-news-section */
+.news-card-container{
+    flex-direction: column;
+    gap: 40px;
+}
+.news-card1,.news-card2,.news-card3{
+ max-height: 400px;
+ background-color: #f1eeee;
+ padding: 25px 25px;
+ border-radius: 25px;
+ gap: 20px;
+}
+.news-card1,.news-card2,.news-card3 p{
+    color: #0E0E0E;
+}
+.news-card2{
+    flex-direction: row-reverse;
+}
+.recent-news{
+    padding: 0 2.5vw;
+}
+.recent-news img{
+    border-radius: 25px;
+}
+.news-card-contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.news-card-contain img{
+    height: 60px;
+   width: 170px;
+}
