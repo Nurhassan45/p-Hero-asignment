@@ -67,6 +67,13 @@ nav h3{
     color:#FFFFFF;
     padding: 17px 34px;
     border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:#FFFFFF;
+    color:#006A50;
+    border: 3px solid #006A50;
 }
 
 /* main-devieson */
@@ -77,13 +84,13 @@ nav h3{
 }
 .future-title{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
     color:#0E0E0E;
 }
 .future-description{
-    font-weight:300;
-    font-size: 35px;
-    color:#0E0E0E;
+    font-size: 30px;
+    font-weight:normal;
+    color: #0e0e0ea1;
 }
 .future-card{
     justify-content: space-evenly;
@@ -96,6 +103,9 @@ nav h3{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.future-card .card1:hover,.card2:hover,.card3:hover{
+    box-shadow: 0px 0px 15px rgba(44, 43, 43, 0.819);
 }
 .future-card img{
     width: 100px;
@@ -116,6 +126,10 @@ nav h3{
     padding: 17px 34px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+.btn1:hover,.btn2:hover,.btn3:hover{
+    box-shadow: 0px 0px 15px rgba(57, 21, 21, 0.819);
 }
 .btn1{
     background-color: #5490F5;
@@ -137,9 +151,15 @@ nav h3{
 }
 .Dr-yunus h3{
     font-weight: bold;
-    padding: 20px 0;
+    font-size: 25px;
+    padding: 10px 0;
 }
-
+.Dr-yunus p{
+    font-size: 16px;
+    font-weight:normal;
+    color: #0e0e0ea1;
+    padding: 10px 0;
+}
 /* recent-news-section */
 .news-card-container{
     flex-direction: column;
@@ -151,15 +171,35 @@ nav h3{
  padding: 25px 25px;
  border-radius: 25px;
  gap: 20px;
+ transition: 0.3s;
 }
 .news-card1,.news-card2,.news-card3 p{
     color: #0E0E0E;
+}
+.news-card1:hover,.news-card2:hover,.news-card3:hover{
+    box-shadow: 0px 0px 15px rgba(44, 43, 43, 0.819);
 }
 .news-card2{
     flex-direction: row-reverse;
 }
 .recent-news{
     padding: 0 2.5vw;
+    flex-direction:column;
+    gap: 10px;
+}
+.recent-news p{
+     font-size: 16px;
+    font-weight:normal;
+    color: #0e0e0ea1;
+  
+}
+.recent-news h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+.recent-news h3{
+    font-size: 25px;
+    font-weight: bold;
 }
 .recent-news img{
     border-radius: 25px;
@@ -186,6 +226,15 @@ nav h3{
     text-align: center;
     justify-content: center;
 }
+.Donate-section p{
+    font-size: 16px;
+    font-weight:normal;
+    color: #0e0e0ea1;
+}
+.Donate-section h2{
+    font-weight: bold;
+    font-size: 35px;
+}
 .amont-flex{
     justify-content: center;
     gap: 50px;
@@ -195,7 +244,7 @@ nav h3{
     padding: 20px 25px;
     border-radius: 10px;
     font-weight: bold;
-    font-size: larger;
+    font-size: 40px;
     transition: 0.3s;
 }
 .amont-items:hover{
@@ -219,7 +268,15 @@ nav h3{
  }
  .subscribe-section-main{
     margin: 0 2.5 vw;
-
+ }
+ .subscribe-section h2{
+    font-weight: bold;
+    font-size: 35px;
+ }
+ .subscribe-section p{
+    font-size: 16px;
+    font-weight:normal;
+    color: #0e0e0ea1;
  }
  .inp-sub {
     justify-content: center;
@@ -232,6 +289,7 @@ nav h3{
     padding: 17px 34px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    cursor: pointer;
     /* border-radius: 10px; */
  }
  .inp-sub input{
@@ -241,4 +299,14 @@ nav h3{
    border-top-left-radius: 10px;
    border-bottom-left-radius: 10px;
     width:400px;
+ }
+
+ footer h1{
+    text-align: center;
+    color: #0E0E0E;
+    margin-top: 30px;
+    background-color: #f1eeee;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 50px 0px;
  }
