@@ -13,8 +13,13 @@ nav {
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    margin:0px 5vw;
+    margin:0px 2.5vw;
     margin-top:20px ;
+}
+
+nav h3{
+    font-weight: bold;
+    font-size: 30px;
 }
 /* banner-section */
 .banner{
@@ -62,4 +67,75 @@ nav {
     color:#FFFFFF;
     padding: 17px 34px;
     border-radius: 10px;
+}
+
+/* main-devieson */
+.future{
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 2.5vw;
+}
+.future-title{
+    font-weight: bold;
+    font-size: 40px;
+    color:#0E0E0E;
+}
+.future-description{
+    font-weight:300;
+    font-size: 35px;
+    color:#0E0E0E;
+}
+.future-card{
+    justify-content: space-evenly;
+    
+}
+.future-card .card1,.card2,.card3{
+    width: 25%;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.future-card img{
+    width: 100px;
+    height: 100px;
+}
+.future-card .card1{
+    background-color:#9ab1d8 ;
+ }
+.future-card .card2{
+    background-color:#C6E4D6 ;
+}
+.future-card .card3{
+    background-color:#F7EBCF ;   
+}
+.btn1,.btn2,.btn3{
+    
+    color:#FFFFFF;
+    padding: 17px 34px;
+    border-radius: 10px;
+    border: none;
+}
+.btn1{
+    background-color: #5490F5;
+}
+.btn2{
+    background-color: #09A15C;
+}
+.btn3{
+    background-color: #FFC239;
+}
+.Dr-yunus{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background-color: #ece6e6fd;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 20px;
+}
+.Dr-yunus h3{
+    font-weight: bold;
+    padding: 20px 0;
 }
